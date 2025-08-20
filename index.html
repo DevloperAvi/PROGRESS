@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QuizMaster</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="container">
+    <div class="brand">
+      <span class="logo"></span>
+      <h1>PROGRESS</h1>
+    </div>
+    <nav>
+      <button id="nav-home" class="link">Home</button>
+      <!-- Leaderboard removed -->
+      <button id="nav-admin" class="link">Admin</button>
+    </nav>
+    <div class="auth">
+      <div id="auth-guest" class="auth-block">
+        <button id="btn-login" class="btn">Log in</button>
+        <button id="btn-register" class="btn outline">Sign up</button>
+      </div>
+      <div id="auth-user" class="auth-block hidden">
+        <span id="user-greeting"></span>
+        <button id="btn-logout" class="btn danger">Log out</button>
+      </div>
+      <button id="theme-toggle" title="Toggle theme" class="icon-btn">🌓</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Home / Categories -->
+    <section id="view-home">
+      <h2>Pick a Category</h2>
+      <div id="categories" class="grid"></div>
+
+      <div class="card info">
+        <h3>How it works</h3>
+        <ul>
+          <li>Choose a category and start a quiz (timer optional).</li>
+          <li>Question types include MCQ, True/False, and Fill-in-the-blank.</li>
+          <li>Review answers and share your score.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Quiz View -->
+    <section id="view-quiz" class="hidden">
+      <div class="quiz-head">
+        <button id="back-to-home" class="btn small">&#8592; Back</button>
+
+        <div class="quiz-title-wrap">
+          <h2 id="quiz-title">Quiz</h2>
+          <div class="progress" aria-hidden="true">
+            <div id="progress-bar" class="progress-bar" style="width:0%"></div>
+          </div>
+        </div>
+
+        <div class="quiz-meta">
+          <span id="progress">Q 1/10</span>
+          <span id="timer" class="timer">--:--</span>
+        </div>
+      </div>
+
+      <div id="question-container" class="card fade-in"></div>
+
+      <div class="quiz-actions">
+        <button id="btn-prev" class="btn outline">Previous</button>
+        <button id="btn-next" class="btn">Next</button>
+        <button id="btn-submit" class="btn success">Submit</button>
+      </div>
+    </section>
+
+    <!-- Results View -->
+    <section id="view-results" class="hidden">
+      <div class="card success">
+        <h2>Results</h2>
+        <p id="results-summary" class="score-pulse"></p>
+        <div id="answer-review" class="review-grid"></div>
+        <div class="share">
+          <button id="btn-share" class="btn">Share score</button>
+          <a id="share-twitter" class="link" target="_blank" rel="noopener">Twitter/X</a>
+          <a id="share-whatsapp" class="link" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+        <div class="actions">
+          <button id="btn-retry" class="btn">Retry</button>
+          <button id="btn-results-home" class="btn outline">Home</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Admin View -->
+    <section id="view-admin" class="hidden">
+      <div class="card warning">
+        <h2>Admin Panel</h2>
+        <p>Only for admins. Add/edit questions, import/export JSON.</p>
+
+        <div id="admin-gate" class="admin-gate">
+          <input id="admin-key" type="password" placeholder="Enter admin key"/>
+          <button id="btn-admin-enter" class="btn">Enter</button>
+        </div>
+
+        <div id="admin-controls" class="hidden">
+          <div class="toolbar">
+            <button id="btn-new-question" class="btn">+ New Question</button>
+            <button id="btn-export" class="btn outline">Export JSON</button>
+            <label class="btn outline">
+              Import JSON
+              <input id="import-file" type="file" accept="application/json" hidden/>
+            </label>
+          </div>
+
+          <div class="filter-row">
+            <select id="admin-category-filter"></select>
+            <input id="admin-search" type="text" placeholder="Search question text..."/>
+          </div>
+
+          <div id="admin-list" class="list"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Auth Modal -->
+  <dialog id="dialog-auth">
+    <form method="dialog" class="card">
+      <h3 id="auth-title">Login</h3>
+      <input id="auth-username" type="text" placeholder="Username" required/>
+      <input id="auth-email" type="email" placeholder="Email" required/>
+      <input id="auth-password" type="password" placeholder="Password" required/>
+      <label class="checkbox">
+        <input id="auth-remember" type="checkbox"/> Remember me
+      </label>
+      <menu>
+        <button id="auth-cancel" value="cancel" class="btn outline">Cancel</button>
+        <button id="auth-submit" class="btn">Continue</button>
+      </menu>
+    </form>
+  </dialog>
+
+  <!-- Question Editor Modal -->
+  <dialog id="dialog-qe">
+    <form method="dialog" class="card">
+      <h3 id="qe-title">Question Editor</h3>
+      <div class="grid-2">
+        <label>Category
+          <input id="qe-category" type="text" placeholder="Science, History, ..."/>
+        </label>
+        <label>Quiz Title
+          <input id="qe-title-input" type="text" placeholder="General Science Set 1"/>
+        </label>
+      </div>
+      <label>Type
+        <select id="qe-type">
+          <option value="mcq">MCQ</option>
+          <option value="tf">True/False</option>
+          <option value="fib">Fill in the blank</option>
+        </select>
+      </label>
+      <label>Question
+        <textarea id="qe-text" rows="3" placeholder="Enter question"></textarea>
+      </label>
+      <div id="qe-options" class="grid-2"></div>
+      <label>Correct Answer
+        <input id="qe-answer" type="text" placeholder="A / True / exact text"/>
+      </label>
+      <label>Explanation (optional)
+        <textarea id="qe-expl" rows="2" placeholder="Reason for the answer"></textarea>
+      </label>
+      <menu>
+        <button id="qe-delete" class="btn danger" type="button">Delete</button>
+        <div class="spacer"></div>
+        <button id="qe-cancel" value="cancel" class="btn outline">Cancel</button>
+        <button id="qe-save" class="btn">Save</button>
+      </menu>
+    </form>
+  </dialog>
+
+  <footer class="container">
+    <p>© <span id="year"></span> QuizMaster • Built with HTML, CSS & JavaScript. Demo only (no real backend).</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2337 @@
+[
+ {
+    "id": "q1_line_algo_001",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which algorithm is commonly used for line drawing in computer graphics?",
+    "options": [
+      "Dijkstra's Algorithm",
+      "Bresenham's Algorithm",
+      "Huffman Coding",
+      "Kruskal's Algorithm"
+    ],
+    "answer": "B",
+    "expl": "Bresenham's Algorithm is widely used for efficient line drawing in computer graphics."
+  },
+  {
+    "id": "q2_bresenham_use_002",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Bresenham's Algorithm is used in computer graphics for:",
+    "options": [
+      "Finding shortest path",
+      "Line drawing",
+      "Data compression",
+      "Minimum spanning tree"
+    ],
+    "answer": "B",
+    "expl": "Bresenham’s Algorithm is designed for raster line drawing."
+  },
+  {
+    "id": "q3_rasterization_003",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "In computer graphics, which algorithm provides efficient rasterization of lines?",
+    "options": [
+      "Huffman Coding",
+      "Bresenham's Algorithm",
+      "Kruskal's Algorithm",
+      "Bellman-Ford Algorithm"
+    ],
+    "answer": "B",
+    "expl": "Bresenham's Algorithm provides efficient rasterization of lines."
+  },
+  {
+    "id": "q4_not_line_algo_004",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which of the following algorithms is NOT related to computer graphics line drawing?",
+    "options": [
+      "Bresenham's Algorithm",
+      "Dijkstra's Algorithm",
+      "Digital Differential Analyzer (DDA) Algorithm",
+      "Midpoint Line Algorithm"
+    ],
+    "answer": "B",
+    "expl": "Dijkstra’s Algorithm is a graph shortest path algorithm, not for graphics line drawing."
+  },
+  {
+    "id": "q5_dijkstra_use_005",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which of the following problems is solved using Dijkstra's Algorithm?",
+    "options": [
+      "Minimum spanning tree",
+      "Shortest path in a graph",
+      "Line drawing in graphics",
+      "Data compression"
+    ],
+    "answer": "B",
+    "expl": "Dijkstra’s Algorithm is used to find the shortest path in weighted graphs."
+  },
+  {
+    "id": "q6_huffman_use_006",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Huffman Coding is mainly used for:",
+    "options": [
+      "Sorting numbers",
+      "Data compression",
+      "Shortest path finding",
+      "Line drawing"
+    ],
+    "answer": "B",
+    "expl": "Huffman Coding is a compression algorithm based on frequency of symbols."
+  },
+  {
+    "id": "q7_kruskal_use_007",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Kruskal's Algorithm is used for finding:",
+    "options": [
+      "Shortest path in a graph",
+      "Minimum spanning tree",
+      "Data compression",
+      "Line drawing in graphics"
+    ],
+    "answer": "B",
+    "expl": "Kruskal’s Algorithm is a greedy method to find MST in a graph."
+  },
+  {
+    "id": "q8_clipping_mean_008",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "What does 'clipping' mean in computer graphics?",
+    "options": [
+      "Image enhancement",
+      "Removing unwanted portions of an image",
+      "Storing graphics in memory",
+      "Zooming a picture"
+    ],
+    "answer": "B",
+    "expl": "Clipping removes parts of objects outside the defined viewing area."
+  },
+  {
+    "id": "q9_not_clipping_009",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which of the following is NOT a type of clipping?",
+    "options": [
+      "Point clipping",
+      "Line clipping",
+      "Text clipping",
+      "Histogram clipping"
+    ],
+    "answer": "D",
+    "expl": "Histogram clipping is not a type of clipping used in graphics."
+  },
+  {
+    "id": "q10_lineclip_algo_010",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which algorithm is commonly used for line clipping?",
+    "options": [
+      "Dijkstra’s Algorithm",
+      "Cohen-Sutherland Algorithm",
+      "Huffman Coding",
+      "Kruskal’s Algorithm"
+    ],
+    "answer": "B",
+    "expl": "The Cohen-Sutherland Algorithm is the standard for line clipping."
+  },
+  {
+    "id": "q11_polyclip_algo_011",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "In polygon clipping, which algorithm is widely used?",
+    "options": [
+      "Sutherland–Hodgman Algorithm",
+      "Bellman-Ford Algorithm",
+      "Prim’s Algorithm",
+      "Quick Sort"
+    ],
+    "answer": "A",
+    "expl": "The Sutherland–Hodgman Algorithm is commonly used for polygon clipping."
+  },
+  {
+    "id": "q12_clip_process_012",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "The process of extracting only the visible part of an object in computer graphics is called:",
+    "options": [
+      "Transformation",
+      "Projection",
+      "Clipping",
+      "Shading"
+    ],
+    "answer": "C",
+    "expl": "Clipping ensures that only visible parts of objects are displayed."
+  },
+  {
+    "id": "q13_text_clip_013",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which of the following clipping types removes parts of characters or text not inside a defined region?",
+    "options": [
+      "Point clipping",
+      "Text clipping",
+      "Polygon clipping",
+      "Line clipping"
+    ],
+    "answer": "B",
+    "expl": "Text clipping removes characters outside the clipping boundary."
+  },
+  {
+    "id": "q14_point_clip_014",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Point clipping is primarily used to test whether:",
+    "options": [
+      "A line passes through a polygon",
+      "A pixel lies inside a visible region",
+      "A character is in memory",
+      "An image is enhanced"
+    ],
+    "answer": "B",
+    "expl": "Point clipping checks whether a pixel lies inside the clipping window."
+  },
+  {
+    "id": "q15_lineclip_use_015",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Line clipping is used to:",
+    "options": [
+      "Remove unwanted pixels",
+      "Detect whether a line lies inside or outside a clipping region",
+      "Compress image data",
+      "Draw smooth curves"
+    ],
+    "answer": "B",
+    "expl": "Line clipping determines visibility of line segments."
+  },
+  {
+    "id": "q16_liang_barsky_016",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "The Liang-Barsky algorithm is used for:",
+    "options": [
+      "Polygon filling",
+      "Line clipping",
+      "Hidden surface removal",
+      "Curve generation"
+    ],
+    "answer": "B",
+    "expl": "The Liang-Barsky Algorithm is an efficient line clipping method."
+  },
+  {
+    "id": "q17_not_application_clip_017",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which of the following is NOT an application of clipping?",
+    "options": [
+      "Windowing",
+      "Zooming",
+      "Hidden surface removal",
+      "Data compression"
+    ],
+    "answer": "D",
+    "expl": "Clipping is not related to data compression."
+  },
+  {
+    "id": "q18_solid_modeling_001",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which of the following is a solid modeling technique?",
+    "options": [
+      "Wireframe modeling",
+      "Boundary representation (B-Rep)",
+      "Flood fill",
+      "Scan conversion"
+    ],
+    "answer": "B",
+    "expl": "B-Rep is a solid modeling technique used to represent the geometry of 3D objects."
+  },
+  {
+    "id": "q19_wireframe_002",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Wireframe modeling represents a 3D object using only:",
+    "options": [
+      "Surfaces",
+      "Volumes",
+      "Edges and vertices",
+      "Textures"
+    ],
+    "answer": "C",
+    "expl": "Wireframe modeling represents only edges and vertices of a 3D object."
+  },
+  {
+    "id": "q20_volume_modeling_003",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which modeling technique defines both the shape and volume of an object?",
+    "options": [
+      "Wireframe modeling",
+      "Boundary representation",
+      "Flood fill",
+      "Scan conversion"
+    ],
+    "answer": "B",
+    "expl": "Boundary representation (B-Rep) defines both the shape and the enclosed volume of an object."
+  },
+  {
+    "id": "q21_brep_use_004",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Boundary Representation (B-Rep) is mainly used in:",
+    "options": [
+      "Data compression",
+      "Computer-Aided Design (CAD)",
+      "Image enhancement",
+      "Graph searching"
+    ],
+    "answer": "B",
+    "expl": "B-Rep is widely used in CAD for solid modeling of objects."
+  },
+  {
+    "id": "q22_flood_fill_005",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Flood Fill algorithm is generally used for:",
+    "options": [
+      "Solid modeling",
+      "Area filling in raster graphics",
+      "Line clipping",
+      "Wireframe modeling"
+    ],
+    "answer": "B",
+    "expl": "Flood Fill is a graphics algorithm used to fill areas in raster images."
+  },
+  {
+    "id": "q23_not_volume_006",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which of the following techniques does not represent the volume of an object?",
+    "options": [
+      "Wireframe modeling",
+      "Boundary representation",
+      "Constructive Solid Geometry (CSG)",
+      "Octree representation"
+    ],
+    "answer": "A",
+    "expl": "Wireframe models do not represent object volume; they only define edges and vertices."
+  },
+  {
+    "id": "q24_brep_advantage_007",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which of the following is an advantage of B-Rep over wireframe modeling?",
+    "options": [
+      "Faster execution",
+      "Volume and surface details are represented",
+      "Simpler storage",
+      "Easy edge representation"
+    ],
+    "answer": "B",
+    "expl": "B-Rep provides complete information about volume and surfaces, unlike wireframe modeling."
+  },
+  {
+    "id": "q25_csg_boolean_008",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "In solid modeling, which technique uses Boolean operations like union, intersection, and difference?",
+    "options": [
+      "Wireframe modeling",
+      "Boundary representation",
+      "Constructive Solid Geometry (CSG)",
+      "Scan conversion"
+    ],
+    "answer": "C",
+    "expl": "CSG uses Boolean operations to build complex solid objects from simple ones."
+  },
+  {
+    "id": "q26_not_solid_009",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which of the following is NOT a solid modeling technique?",
+    "options": [
+      "Boundary Representation (B-Rep)",
+      "Constructive Solid Geometry (CSG)",
+      "Octree Representation",
+      "Scan Conversion"
+    ],
+    "answer": "D",
+    "expl": "Scan conversion is a rasterization process, not a solid modeling technique."
+  },
+  {
+    "id": "q27_solid_purpose_010",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "The main purpose of solid modeling in CAD is to:",
+    "options": [
+      "Improve image resolution",
+      "Define 3D object geometry with interior and exterior details",
+      "Enhance 2D graphics speed",
+      "Store data efficiently"
+    ],
+    "answer": "B",
+    "expl": "Solid modeling helps represent 3D geometry completely with both external shape and internal details."
+  },
+  {
+    "id": "q28_raster_screen_001",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "In raster graphics, the screen is divided into:",
+    "options": [
+      "Lines",
+      "Pixels",
+      "Vectors",
+      "Segments"
+    ],
+    "answer": "B",
+    "expl": "In raster graphics, the screen is divided into a grid of pixels."
+  },
+  {
+    "id": "q29_pixel_def_002",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "A pixel is:",
+    "options": [
+      "The smallest unit of a raster image",
+      "A vector graphic element",
+      "A group of segments",
+      "A type of scanline algorithm"
+    ],
+    "answer": "A",
+    "expl": "A pixel is the smallest addressable unit in a raster image."
+  },
+  {
+    "id": "q30_subpixel_003",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Each pixel in a raster display is generally made up of:",
+    "options": [
+      "1 sub-pixel",
+      "2 sub-pixels",
+      "3 sub-pixels (Red, Green, Blue)",
+      "4 sub-pixels (CMYK)"
+    ],
+    "answer": "C",
+    "expl": "A pixel is usually composed of three sub-pixels: Red, Green, and Blue."
+  },
+  {
+    "id": "q31_dead_pixel_004",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "A dead pixel refers to:",
+    "options": [
+      "A pixel that is always white",
+      "A pixel that does not display color at all",
+      "A pixel that changes colors rapidly",
+      "A pixel used only in vector graphics"
+    ],
+    "answer": "B",
+    "expl": "A dead pixel is one that fails to light up, appearing black or stuck."
+  },
+  {
+    "id": "q32_raster_vs_vector_005",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which of the following uses pixels as the basic element of image representation?",
+    "options": [
+      "Raster graphics",
+      "Vector graphics",
+      "Wireframe modeling",
+      "Boundary representation"
+    ],
+    "answer": "A",
+    "expl": "Raster graphics rely on pixels to represent images, unlike vector graphics."
+  },
+  {
+    "id": "q33_resolution_006",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "In raster graphics, image quality depends mainly on:",
+    "options": [
+      "Number of segments",
+      "Resolution (number of pixels)",
+      "Number of vectors",
+      "Scan conversion speed"
+    ],
+    "answer": "B",
+    "expl": "Higher resolution means more pixels per area, giving better image quality."
+  },
+  {
+    "id": "q34_true_raster_007",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which of the following is true about raster graphics?",
+    "options": [
+      "Uses mathematical equations for shapes",
+      "Screen is divided into pixels",
+      "Cannot display photographs",
+      "Requires no memory"
+    ],
+    "answer": "B",
+    "expl": "Raster graphics divide the screen into a pixel grid, making them suitable for photos."
+  },
+   {
+    "id": "q35_raster_image_008",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "A collection of pixels forms:",
+    "options": [
+      "A vector",
+      "A raster image",
+      "A polygon",
+      "A scanline"
+    ],
+    "answer": "B",
+    "expl": "Pixels together form a raster image on the screen."
+  },
+  {
+    "id": "q36_pixel_color_009",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "The intensity and color of a pixel are determined by:",
+    "options": [
+      "Its coordinates only",
+      "Sub-pixels (RGB values)",
+      "The number of vectors used",
+      "Boundary representation"
+    ],
+    "answer": "B",
+    "expl": "Each pixel’s color is defined by its red, green, and blue sub-pixel values."
+  },
+  {
+    "id": "q37_vector_graphics_010",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which graphics system divides the screen into geometric primitives like lines and curves instead of pixels?",
+    "options": [
+      "Raster graphics",
+      "Vector graphics",
+      "Scanline graphics",
+      "Polygon clipping"
+    ],
+    "answer": "B",
+    "expl": "Vector graphics use mathematical primitives like lines, curves, and polygons rather than pixels."
+  },
+  {
+    "id": "q38_affine_nonaffine_001",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which transformation is NOT affine?",
+    "options": [
+      "Translation",
+      "Rotation",
+      "Scaling",
+      "Perspective projection"
+    ],
+    "answer": "D",
+    "expl": "Affine transformations include translation, rotation, scaling, shearing, and reflection. Perspective projection is not affine."
+  },
+  {
+    "id": "q39_affine_included_002",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which of the following transformations are included in affine transformations?",
+    "options": [
+      "Translation, Rotation, Scaling, Shearing, Reflection",
+      "Only Rotation and Scaling",
+      "Only Translation and Reflection",
+      "Perspective projection only"
+    ],
+    "answer": "A",
+    "expl": "Affine transformations include translation, rotation, scaling, reflection, and shearing."
+  },
+  {
+    "id": "q40_affine_preserve_003",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Affine transformations preserve:",
+    "options": [
+      "Straightness of lines",
+      "Parallelism of lines",
+      "Ratios of distances along a line",
+      "All of the above"
+    ],
+    "answer": "D",
+    "expl": "Affine transformations preserve straight lines, parallelism, and ratios along lines."
+  },
+  {
+    "id": "q41_shearing_shape_004",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which transformation can change the shape of an object (e.g., rectangle into a parallelogram)?",
+    "options": [
+      "Scaling",
+      "Rotation",
+      "Shearing",
+      "Translation"
+    ],
+    "answer": "C",
+    "expl": "Shearing transformation skews an object, converting shapes like rectangles into parallelograms."
+  },
+  {
+    "id": "q42_reflection_affine_005",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Reflection transformation is considered an:",
+    "options": [
+      "Affine transformation",
+      "Non-affine transformation",
+      "Perspective projection",
+      "Rasterization technique"
+    ],
+    "answer": "A",
+    "expl": "Reflection is a linear affine transformation that flips objects about an axis or plane."
+  },
+  {
+    "id": "q43_nonlinear_006",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC",
+    "type": "mcq",
+    "text": "Which of the following is a non-linear transformation?",
+    "options": [
+      "Rotation",
+      "Translation",
+      "Perspective projection",
+      "Scaling"
+    ],
+    "answer": "C",
+    "expl": "Perspective projection is non-linear because it does not preserve parallelism."
+  },
+  {
+  "id": "q44_homogeneous_matrix_007",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Affine transformations are represented using:",
+  "options": [
+    "2x2 matrices only",
+    "Homogeneous coordinate matrices",
+    "Adjacency matrices",
+    "Incidence matrices"
+  ],
+  "answer": "B",
+  "expl": "Affine transformations are expressed using homogeneous coordinate matrices for easy combination."
+},
+{
+  "id": "q45_scaling_size_008",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which transformation changes only the size of the object but not its shape?",
+  "options": [
+    "Translation",
+    "Scaling",
+    "Rotation",
+    "Reflection"
+  ],
+  "answer": "B",
+  "expl": "Scaling increases or decreases object size uniformly without altering its shape."
+},
+{
+  "id": "q46_translation_move_009",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which affine transformation repositions an object without altering its size, shape, or orientation?",
+  "options": [
+    "Translation",
+    "Shearing",
+    "Reflection",
+    "Rotation"
+  ],
+  "answer": "A",
+  "expl": "Translation simply moves an object to a new position."
+},
+{
+  "id": "q47_rotation_matrix_010",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "When an object is rotated by an angle θ about the origin, the transformation matrix involves:",
+  "options": [
+    "Only 1s and 0s",
+    "Sine and Cosine values",
+    "Scaling factors",
+    "Perspective coefficients"
+  ],
+  "answer": "B",
+  "expl": "Rotation matrices use trigonometric sine and cosine values for transformation."
+},
+{
+  "id": "q48_refresh_rate_001",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which is the typical refresh rate in a raster scan display?",
+  "options": [
+    "Once per second",
+    "25 to 50 times per second",
+    "60 to 80 times per second",
+    "5 to 10 times per second"
+  ],
+  "answer": "C",
+  "expl": "Typical CRT-based raster scan displays refresh at around 60–80 Hz for smooth visual performance."
+},
+{
+  "id": "q49_refresh_flicker_002",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "If the refresh rate of a raster display is below 30 Hz, what happens?",
+  "options": [
+    "The image becomes clearer",
+    "The image starts flickering",
+    "The display speed increases",
+    "Colors become brighter"
+  ],
+  "answer": "B",
+  "expl": "At refresh rates below 30 Hz, the human eye perceives flicker, making the display uncomfortable."
+},
+{
+  "id": "q50_refresh_measure_003",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "The refresh rate of raster scan display is generally measured in:",
+  "options": [
+    "Pixels per second",
+    "Frames per second (Hz)",
+    "Lines per second",
+    "Bytes per second"
+  ],
+  "answer": "B",
+  "expl": "Refresh rate is measured in frames per second, also called Hertz (Hz)."
+},
+{
+  "id": "q51_refresh_crt_004",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which display technology commonly works at 60–80 Hz refresh rate?",
+  "options": [
+    "LED Display",
+    "LCD Display",
+    "CRT Display",
+    "Plasma Display"
+  ],
+  "answer": "C",
+  "expl": "CRT monitors typically operate at 60–80 Hz refresh rates to minimize flicker."
+},
+{
+  "id": "q52_refresh_quality_005",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Higher refresh rates in raster scan displays result in:",
+  "options": [
+    "More flickering",
+    "Smoother and clearer images",
+    "Lower resolution",
+    "Slower processing speed"
+  ],
+  "answer": "B",
+  "expl": "Higher refresh rates reduce flicker and produce smoother, more stable images."
+},
+{
+  "id": "q53_curves_001",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which of the following is used to represent curves in computer graphics?",
+  "options": ["DDA Algorithm", "Bresenham Algorithm", "Bezier Curve", "Flood Fill"],
+  "answer": "C",
+  "expl": "Bezier curves are widely used to represent smooth curves in computer graphics and design."
+},
+{
+  "id": "q54_curves_app_002",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Bezier curves are mainly used in:",
+  "options": ["Game Physics", "Sorting Algorithms", "Font Design and CAD Design", "Encryption"],
+  "answer": "C",
+  "expl": "Bezier curves are essential in designing fonts, logos, and CAD applications for smooth curve modeling."
+},
+{
+  "id": "q55_curves_shape_003",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What defines the shape of a Bezier curve?",
+  "options": ["Pixels", "Lines", "Control Points", "Tangents"],
+  "answer": "C",
+  "expl": "Control points determine the exact shape and curvature of a Bezier curve."
+},
+{
+  "id": "q56_dda_004",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "The DDA Algorithm is primarily used for:",
+  "options": ["Line Drawing", "Filling Curves", "3D Modelling", "Rendering Fonts"],
+  "answer": "A",
+  "expl": "The Digital Differential Analyzer (DDA) algorithm is used for raster line drawing."
+},
+{
+  "id": "q57_bresenham_005",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which algorithm is known for line drawing using integer arithmetic?",
+  "options": ["DDA Algorithm", "Bresenham Algorithm", "Bezier Curve", "Flood Fill"],
+  "answer": "B",
+  "expl": "Bresenham’s algorithm is efficient for line drawing using only integer calculations."
+},
+{
+  "id": "q58_floodfill_006",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which method is used to fill a bounded region in graphics?",
+  "options": ["Bezier Curve", "Bresenham Algorithm", "Flood Fill", "DDA Algorithm"],
+  "answer": "C",
+  "expl": "Flood fill is a region filling algorithm used in raster graphics to color bounded areas."
+},
+{
+  "id": "q59_bezier_type_007",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "In Bezier curves, what type of curves are generally generated?",
+  "options": ["Straight Lines", "Jagged Curves", "Smooth Curves", "Random Curves"],
+  "answer": "C",
+  "expl": "Bezier curves are mathematically designed to produce smooth and scalable curves."
+},
+{
+  "id": "q60_bezier_use_008",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Where are Bezier curves commonly used?",
+  "options": ["Database Management", "Computer Graphics", "Operating Systems", "Networking Protocols"],
+  "answer": "B",
+  "expl": "Bezier curves are widely used in computer graphics, vector design, and animation."
+},
+{
+  "id": "q61_bezier_math_009",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What kind of curve is a Bezier curve mathematically considered?",
+  "options": ["Trigonometric Curve", "Parametric Curve", "Step Function", "Linear Curve"],
+  "answer": "B",
+  "expl": "Bezier curves are parametric curves defined by control points and parametric equations."
+},
+{
+  "id": "q62_bezier_calc_010",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "How are Bezier curves computed?",
+  "options": ["Using Binary Trees", "Using Mathematical Formulas Based on Control Points", "Random Sampling", "Using Hash Functions"],
+  "answer": "B",
+  "expl": "Bezier curves are computed with polynomial formulas based on the given control points."
+},
+{
+  "id": "q63_color_001",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which color model is based on Red, Green, and Blue components?",
+  "options": ["CMYK", "HSV", "RGB", "HSI"],
+  "answer": "C",
+  "expl": "The RGB model is an additive color model based on the primary colors of light: Red, Green, and Blue."
+},
+{
+  "id": "q64_color_002",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which color model is primarily used in color printers?",
+  "options": ["CMYK", "RGB", "HSV", "HSI"],
+  "answer": "A",
+  "expl": "Printers use the CMYK subtractive model because it is based on ink colors: Cyan, Magenta, Yellow, and Black."
+},
+{
+  "id": "q65_color_003",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "In the CMYK model, what does ‘K’ stand for?",
+  "options": ["Color", "Cyan", "Key (Black)", "Kelvin"],
+  "answer": "C",
+  "expl": "The ‘K’ in CMYK stands for Key (Black), representing the black component used in printing."
+},
+{
+  "id": "q66_color_004",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which color model is best suited for human color perception and is used in image processing?",
+  "options": ["RGB", "CMYK", "HSV", "HSI"],
+  "answer": "C",
+  "expl": "HSV/HSI models are designed to align more closely with human visual perception, making them useful in image editing."
+},
+{
+  "id": "q67_color_005",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which of the following is a subtractive color model?",
+  "options": ["RGB", "CMYK", "HSV", "HSI"],
+  "answer": "B",
+  "expl": "CMYK is subtractive because it subtracts light using inks to create colors."
+},
+{
+  "id": "q68_color_006",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "In the HSV model, ‘V’ stands for:",
+  "options": ["Value", "Variety", "Value", "Vibration"],
+  "answer": "A",
+  "expl": "In HSV, H = Hue, S = Saturation, and V = Value (brightness level)."
+},
+{
+  "id": "q69_color_007",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which model separates color into Hue, Saturation, and Brightness/Value?",
+  "options": ["HSV", "RGB", "CMYK", "RYB"],
+  "answer": "A",
+  "expl": "The HSV model represents color in terms of Hue, Saturation, and Value (brightness)."
+},
+{
+  "id": "q70_color_008",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which color model is used when working with televisions, projectors, and computer screens?",
+  "options": ["CMYK", "RGB", "HSV", "HSI"],
+  "answer": "B",
+  "expl": "RGB is used in display devices like monitors, projectors, and TVs because they emit light."
+},
+{
+  "id": "q71_color_009",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Why is the RGB model called an 'additive' color model?",
+  "options": ["It subtracts light to create colors", "It uses cyan, magenta, yellow", "It combines light to produce other colors", "It’s only used in printing"],
+  "answer": "C",
+  "expl": "RGB is additive because it adds light of different colors to produce other colors, including white."
+},
+{
+  "id": "q72_color_010",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What is the main advantage of using HSI or HSV over RGB in image editing?",
+  "options": ["They require less memory", "They align better with human color perception", "They are compatible with printers", "They have more primary colors"],
+  "answer": "B",
+  "expl": "HSV/HSI align more closely with how humans perceive and adjust color, making them ideal for editing."
+},
+{
+  "id": "q73_color_011",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which color model is used in monitors and televisions?",
+  "options": ["CMYK", "HSV", "RGB", "HSI"],
+  "answer": "C",
+  "expl": "Monitors and televisions use RGB as they work with emitted light."
+},
+{
+  "id": "q74_color_012",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What does RGB stand for?",
+  "options": ["Red, Grey, Black", "Red, Green, Blue", "Right, Green, Blue", "Red, Gold, Blue"],
+  "answer": "B",
+  "expl": "RGB stands for Red, Green, and Blue, the primary colors of light."
+},
+{
+  "id": "q75_color_013",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "RGB is which type of color model?",
+  "options": ["Subtractive", "Multiplicative", "Additive", "Comparative"],
+  "answer": "C",
+  "expl": "The RGB model is additive because colors are formed by adding light."
+},
+{
+  "id": "q76_color_014",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which device does NOT typically use the RGB color model?",
+  "options": ["Printer", "Mobile", "Monitor", "Television"],
+  "answer": "A",
+  "expl": "Printers use CMYK inks instead of RGB light for color formation."
+},
+{
+  "id": "q77_color_015",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "In the RGB model, what color is produced when all three colors (R, G, B) are combined at full intensity?",
+  "options": ["Red", "Blue", "White", "Black"],
+  "answer": "C",
+  "expl": "When Red, Green, and Blue lights are combined at full intensity, they produce White."
+},
+  {
+  "id": "q78_color_016",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which color model is primarily used in printing?",
+  "options": ["RGB", "CMYK", "HSV", "HSL"],
+  "answer": "B",
+  "expl": "Printing is done using CMYK because it is based on subtractive ink colors."
+},
+{
+  "id": "q79_color_017",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "RGB model is mainly used in which of the following applications?",
+  "options": ["Mobile screens, TVs, Projectors", "Newspaper printing", "3D modeling", "Satellite imaging"],
+  "answer": "A",
+  "expl": "RGB is used in electronic display devices like mobiles, TVs, and projectors."
+},
+{
+  "id": "q80_color_018",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which of the following is NOT a component of the RGB model?",
+  "options": ["Red", "Green", "Yellow", "Blue"],
+  "answer": "C",
+  "expl": "RGB has Red, Green, and Blue components. Yellow is formed by combining Red and Green."
+},
+{
+  "id": "q81_color_019",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What kind of devices use an additive color model?",
+  "options": ["Devices that emit light", "Devices that absorb light", "Devices that reflect light", "Devices that print"],
+  "answer": "A",
+  "expl": "Devices like monitors, TVs, and projectors use the additive RGB color model since they emit light."
+},
+{
+  "id": "q82_color_020",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What is the result of combining red and green in the RGB model?",
+  "options": ["Yellow", "Magenta", "Cyan", "White"],
+  "answer": "A",
+  "expl": "In RGB, combining Red and Green produces Yellow."
+},
+{
+  "id": "q1_scan_conversion",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What is scan conversion in computer graphics?",
+  "options": [
+    "Converting image to text",
+    "Converting geometric data into pixels",
+    "Converting text to graphics",
+    "Converting vector to audio"
+  ],
+  "answer": "B",
+  "expl": "Scan conversion is the process of converting geometric data (lines, shapes) into raster images (pixels) for display."
+},
+{
+  "id": "q2_scan_conversion",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Scan conversion is an essential part of which process?",
+  "options": [
+    "Rendering",
+    "Data compression",
+    "File transfer",
+    "Networking"
+  ],
+  "answer": "A",
+  "expl": "Rendering requires scan conversion to transform vector data into pixel data for raster displays."
+},
+{
+  "id": "q3_scan_conversion",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which device typically uses scan conversion to display images?",
+  "options": [
+    "Printer",
+    "Keyboard",
+    "Monitor",
+    "Microphone"
+  ],
+  "answer": "C",
+  "expl": "Monitors rely on scan conversion to render vector data into pixels on the screen."
+},
+{
+  "id": "q4_scan_conversion",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "In scan conversion, vector or shape data is transformed into:",
+  "options": [
+    "Binary code",
+    "Raster (pixel-based) image",
+    "Audio wave",
+    "Source code"
+  ],
+  "answer": "B",
+  "expl": "Scan conversion transforms geometric shapes into pixel-based raster images."
+},
+{
+  "id": "q5_scan_conversion",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "The primary goal of scan conversion is to:",
+  "options": [
+    "Improve audio quality",
+    "Render images on raster displays",
+    "Encrypt geometric data",
+    "Translate languages"
+  ],
+  "answer": "B",
+  "expl": "Its main goal is rendering vector data into a raster format for display."
+},
+{
+  "id": "q6_scan_conversion",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which graphics system heavily depends on scan conversion?",
+  "options": [
+    "Command line interface",
+    "Spreadsheet software",
+    "Raster graphics system",
+    "Compiler design"
+  ],
+  "answer": "C",
+  "expl": "Raster graphics systems depend on scan conversion to map geometry to pixels."
+},
+{
+  "id": "q7_scan_conversion",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Scan conversion is also known as:",
+  "options": [
+    "Font mapping",
+    "Audio rendering",
+    "Rasterization",
+    "Compilation"
+  ],
+  "answer": "C",
+  "expl": "Another name for scan conversion is rasterization, converting vector data to pixel form."
+},
+{
+  "id": "q8_scan_conversion",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which of the following is NOT a step in scan conversion?",
+  "options": [
+    "Line drawing",
+    "Circle generation",
+    "Text-to-speech synthesis",
+    "Polygon filling"
+  ],
+  "answer": "C",
+  "expl": "Text-to-speech synthesis is unrelated to scan conversion."
+},
+  {
+  "id": "q9_scan_conversion",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What data type is converted during scan conversion?",
+  "options": [
+    "Audio data",
+    "Geometric data",
+    "Text data",
+    "Encryption keys"
+  ],
+  "answer": "B",
+  "expl": "Scan conversion converts geometric data like lines, circles, polygons into raster pixels."
+},
+{
+  "id": "q10_scan_conversion",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which algorithm is often used in scan conversion for drawing lines?",
+  "options": [
+    "Quick Sort",
+    "Dijkstra’s Algorithm",
+    "Bresenham’s Line Algorithm",
+    "RSA Encryption"
+  ],
+  "answer": "C",
+  "expl": "Bresenham’s Line Algorithm is widely used for efficient line drawing in scan conversion."
+},
+{
+  "id": "q1_anti_aliasing",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What does anti-aliasing do?",
+  "options": ["Increases speed", "Removes jagged edges", "Changes color model", "Converts raster to vector"],
+  "answer": "B",
+  "expl": "Anti-aliasing smooths jagged edges in digital images."
+},
+{
+  "id": "q2_anti_aliasing",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Aliasing is most visible in:",
+  "options": ["Text files", "Diagonal or curved lines", "Flat colors", "Vector audio"],
+  "answer": "B",
+  "expl": "Aliasing appears as jagged edges, especially in diagonals and curves."
+},
+{
+  "id": "q3_anti_aliasing",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Anti-aliasing works by:",
+  "options": ["Increasing pixel size", "Blending colors at edges", "Reducing resolution", "Smoothing polygons using vectors"],
+  "answer": "B",
+  "expl": "It smooths edges by blending colors between object and background."
+},
+{
+  "id": "q4_anti_aliasing",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which of the following is an anti-aliasing technique?",
+  "options": ["Rasterization", "Flood Fill", "Supersampling", "Z-Buffer"],
+  "answer": "C",
+  "expl": "Supersampling is a common anti-aliasing method."
+},
+{
+  "id": "q5_anti_aliasing",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Anti-aliasing is mainly used to:",
+  "options": ["Improve sound quality", "Enhance database queries", "Improve visual quality in graphics", "Compress files"],
+  "answer": "C",
+  "expl": "It improves visual quality by smoothing edges in graphics."
+},
+{
+  "id": "q6_projection",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "In 3D graphics, which projection preserves parallelism?",
+  "options": ["Perspective Projection", "Orthographic Projection", "Oblique Projection", "Fish-eye Projection"],
+  "answer": "B",
+  "expl": "Orthographic projection preserves parallelism of lines."
+},
+{
+  "id": "q7_projection",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Perspective projection:",
+  "options": ["Converges parallel lines at vanishing point", "Preserves distances", "Keeps all lines parallel", "Ignores depth"],
+  "answer": "A",
+  "expl": "In perspective projection, parallel lines meet at a vanishing point."
+},
+{
+  "id": "q8_projection",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Orthographic projection is best used for:",
+  "options": ["Engineering and CAD designs", "Games with realistic depth", "Animation only", "Fish-eye lens simulation"],
+  "answer": "A",
+  "expl": "Engineering drawings require undistorted shapes using orthographic projection."
+},
+{
+  "id": "q9_projection",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Fish-eye projection is:",
+  "options": ["Linear projection", "Wide-angle lens distortion", "Used in medical imaging", "Same as orthographic"],
+  "answer": "B",
+  "expl": "Fish-eye projection is a wide-angle distortion effect."
+},
+{
+  "id": "q10_projection",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Oblique projection:",
+  "options": ["Allows depth but keeps front face undistorted", "Same as perspective", "Isometric by default", "Uses only 2D transformations"],
+  "answer": "A",
+  "expl": "Oblique projection keeps the front face true and adds depth via angled projection."
+},
+{
+  "id": "q11_hidden_surface",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which technique is used for hidden surface removal?",
+  "options": ["Z-Buffer", "Flood Fill", "Scanline Fill", "Midpoint Subdivision"],
+  "answer": "A",
+  "expl": "Z-buffer is a standard algorithm for hidden surface removal."
+},
+{
+  "id": "q12_hidden_surface",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Z-buffer stores:",
+  "options": ["Pixel brightness", "Depth information", "Color values only", "Polygon vertices"],
+  "answer": "B",
+  "expl": "Z-buffer stores the depth (z-value) of each pixel."
+},
+{
+  "id": "q13_hidden_surface",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which is NOT a hidden surface removal technique?",
+  "options": ["Z-Buffer", "Painter’s Algorithm", "Flood Fill", "BSP Trees"],
+  "answer": "C",
+  "expl": "Flood Fill is a filling algorithm, not a surface removal method."
+},
+{
+  "id": "q14_hidden_surface",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Painter’s algorithm draws:",
+  "options": ["Front-to-back", "In real-time", "Back-to-front", "Hidden only"],
+  "answer": "C",
+  "expl": "Painter’s algorithm paints from back to front to ensure visibility."
+},
+{
+  "id": "q15_hidden_surface",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Scanline algorithm is best for:",
+  "options": ["Filling visible polygon areas", "Depth comparison", "Removing shadows", "Text rendering"],
+  "answer": "A",
+  "expl": "Scanline method is used to fill visible polygon regions line by line."
+},
+{
+  "id": "q16_polygon",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which is NOT a polygon filling algorithm?",
+  "options": ["Flood Fill", "Boundary Fill", "Scanline Fill", "Dijkstra Algorithm"],
+  "answer": "D",
+  "expl": "Dijkstra’s algorithm is for shortest path, not polygon filling."
+},
+{
+  "id": "q17_polygon",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Boundary fill algorithm starts:",
+  "options": ["From edges", "From vertices", "From a point inside the polygon", "Outside the canvas"],
+  "answer": "C",
+  "expl": "Boundary fill starts from a seed point inside the polygon."
+},
+  {
+  "id": "q18_polygon",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Flood fill is best used when:",
+  "options": ["Boundary color is unknown", "Area is bounded by a specific color", "Shape is concave", "Working with audio"],
+  "answer": "A",
+  "expl": "Flood fill is useful when boundaries are not clearly defined."
+},
+{
+  "id": "q19_polygon",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which polygon fill algorithm checks all scanlines?",
+  "options": ["Scanline Fill", "Flood Fill", "Depth Fill", "Line Clipping"],
+  "answer": "A",
+  "expl": "Scanline fill processes each scanline to fill polygon areas."
+},
+{
+  "id": "q20_polygon",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Flood fill and boundary fill are:",
+  "options": ["Edge detection algorithms", "Compression techniques", "Seed-based fill algorithms", "Used in vector tracing"],
+  "answer": "C",
+  "expl": "Both are seed-based polygon filling methods."
+},
+{
+  "id": "q21_mixed",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which algorithm is best for realistic depth in 3D?",
+  "options": ["Orthographic", "Perspective", "Oblique", "Parallel"],
+  "answer": "B",
+  "expl": "Perspective projection gives a realistic depth view."
+},
+{
+  "id": "q22_mixed",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What is the limitation of orthographic projection?",
+  "options": ["Too complex", "No depth perception", "Too realistic", "Not used in engineering"],
+  "answer": "B",
+  "expl": "Orthographic projection cannot show realistic depth."
+},
+{
+  "id": "q23_mixed",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Dijkstra algorithm is used in:",
+  "options": ["Image rendering", "Shortest path in graphs", "Filling triangles", "Line drawing"],
+  "answer": "B",
+  "expl": "Dijkstra finds the shortest path in graph structures."
+},
+{
+  "id": "q24_mixed",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Aliasing mainly affects:",
+  "options": ["Edges of objects in raster graphics", "Audio pitch", "Frame rate", "Zoom function"],
+  "answer": "A",
+  "expl": "Aliasing causes jagged edges in raster graphics."
+},
+{
+  "id": "q25_mixed",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which technique uses a buffer to store pixel depths?",
+  "options": ["Painter’s", "Z-buffer", "Scanline", "Ray tracing"],
+  "answer": "B",
+  "expl": "Z-buffer maintains depth values for visibility testing."
+},
+{
+  "id": "q26_concept",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What is the main objective of anti-aliasing?",
+  "options": ["Compress graphics", "Increase RAM", "Smooth visual transitions", "Highlight edges"],
+  "answer": "C",
+  "expl": "Anti-aliasing smooths transitions for better visuals."
+},
+{
+  "id": "q27_concept",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which algorithm is scan-based polygon filler?",
+  "options": ["Boundary Fill", "Scanline Fill", "Z-Buffer", "Midpoint"],
+  "answer": "B",
+  "expl": "Scanline fill works by scanning across each line of the polygon."
+},
+{
+  "id": "q28_concept",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which projection shows objects without foreshortening?",
+  "options": ["Perspective", "Orthographic", "Fish-eye", "Stereoscopic"],
+  "answer": "B",
+  "expl": "Orthographic projection does not distort dimensions."
+},
+{
+  "id": "q29_concept",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Anti-aliasing is especially important in:",
+  "options": ["Music files", "Low-resolution displays", "Touchscreen sensors", "Storage"],
+  "answer": "B",
+  "expl": "Low-resolution displays show jagged edges, so anti-aliasing helps smooth them."
+},
+{
+  "id": "q30_concept",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which projection distorts parallel lines for realism?",
+  "options": ["Perspective", "Orthographic", "Scanline", "Z-buffer"],
+  "answer": "A",
+  "expl": "Perspective projection distorts parallel lines toward vanishing points."
+},
+{
+  "id": "q1_cig",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What is the final output device that displays the rendered image to the user?",
+  "options": ["Display controller", "Frame buffer", "Monitor", "RAM"],
+  "answer": "C",
+  "expl": "The monitor is the final output device where the rendered image is displayed."
+},
+{
+  "id": "q2_cig",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What is a “rendered image”?",
+  "options": ["Raw image", "Compressed image", "Processed and final image by the computer", "Image captured by scanner"],
+  "answer": "C",
+  "expl": "A rendered image is the processed and final version generated by the computer."
+},
+{
+  "id": "q3_cig",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What component sends the rendered image from memory to the screen?",
+  "options": ["Monitor", "Frame buffer", "RAM", "Display Controller"],
+  "answer": "D",
+  "expl": "The display controller transfers the stored image data from memory to the monitor."
+},
+{
+  "id": "q4_cig",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What is the function of a frame buffer?",
+  "options": ["Display text", "Convert analog to digital", "Store pixel data of the image", "Store audio"],
+  "answer": "C",
+  "expl": "A frame buffer stores pixel data including color and intensity values of an image."
+},
+{
+  "id": "q5_cig",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which of the following is NOT a component of interactive computer graphics?",
+  "options": ["Scanner", "Monitor", "Display controller", "Frame buffer"],
+  "answer": "A",
+  "expl": "Scanners are input devices, not core components of interactive computer graphics."
+},
+{
+  "id": "q6_cig",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Display controllers are also known as:",
+  "options": ["Pixel drivers", "Video controllers", "Frame monitors", "CPU renderers"],
+  "answer": "B",
+  "expl": "Display controllers are also called video controllers."
+},
+{
+  "id": "q7_cig",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which component of interactive graphics stores color and intensity values of pixels?",
+  "options": ["Monitor", "Frame buffer", "Video controller", "Display port"],
+  "answer": "B",
+  "expl": "The frame buffer stores pixel intensity and color values."
+},
+{
+  "id": "q8_cig",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Interactive computer graphics involve which of the following components?",
+  "options": ["Monitor", "Display controller", "Frame buffer", "All of the above"],
+  "answer": "D",
+  "expl": "All three components work together to display graphics interactively."
+},
+{
+  "id": "q9_cig",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What happens if the display controller fails?",
+  "options": ["Image gets brighter", "Display output cannot be sent to monitor", "Audio crashes", "RAM overloads"],
+  "answer": "B",
+  "expl": "If the display controller fails, no image can be sent to the monitor."
+},
+{
+  "id": "q10_cig",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which one is responsible for showing the final image to the user?",
+  "options": ["Display controller", "CPU", "Monitor", "Buffer"],
+  "answer": "C",
+  "expl": "The monitor shows the final output to the user."
+},
+{
+  "id": "q11_2dt",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "What is transformation in computer graphics?",
+  "options": ["Data compression", "Color adjustment", "Changing position, shape, angle, or size of an object", "Font styling"],
+  "answer": "C",
+  "expl": "Transformation refers to modifying position, size, angle, or shape of objects."
+},
+{
+  "id": "q12_2dt",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Translation refers to:",
+  "options": ["Changing shape", "Changing position", "Changing size", "Rotating an object"],
+  "answer": "B",
+  "expl": "Translation moves an object from one location to another."
+},
+{
+  "id": "q13_2dt",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Rotation involves change in:",
+  "options": ["Size", "Position", "Angle", "Shape"],
+  "answer": "C",
+  "expl": "Rotation changes the angle of an object around a pivot point."
+},
+{
+  "id": "q14_2dt",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Scaling changes:",
+  "options": ["Shape", "Size", "Position", "Angle"],
+  "answer": "B",
+  "expl": "Scaling modifies the size of an object."
+},
+{
+  "id": "q15_2dt",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Shearing causes:",
+  "options": ["Change in position", "Change in shape", "Color distortion", "Transparency"],
+  "answer": "B",
+  "expl": "Shearing skews the shape of an object without altering its size."
+},
+{
+  "id": "q16_2dt",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which of the following is NOT a basic transformation?",
+  "options": ["Translation", "Rotation", "Scaling", "Blending"],
+  "answer": "D",
+  "expl": "Blending is not a geometric transformation."
+},
+{
+  "id": "q17_2dt",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "A transformation that moves an object without rotating or resizing it is:",
+  "options": ["Shearing", "Scaling", "Translation", "Reflection"],
+  "answer": "C",
+  "expl": "Translation moves an object without altering its size or orientation."
+},
+{
+  "id": "q18_2dt",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "If an object is resized but remains at the same position and angle, what transformation is applied?",
+  "options": ["Rotation", "Shearing", "Scaling", "Clipping"],
+  "answer": "C",
+  "expl": "Scaling resizes objects without changing their position or orientation."
+},
+{
+  "id": "q19_2dt",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Shearing is commonly used for:",
+  "options": ["Skewing objects", "Coloring objects", "Compressing graphics", "Cropping shapes"],
+  "answer": "A",
+  "expl": "Shearing skews or slants objects in graphics."
+},
+{
+  "id": "q20_2dt",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which transformation changes both shape and orientation?",
+  "options": ["Scaling", "Shearing", "Translation", "Rotation"],
+  "answer": "B",
+  "expl": "Shearing alters both the shape and orientation of an object."
+},
+{
+  "id": "q21_disp",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which display method uses horizontal line-by-line refreshing of pixels?",
+  "options": ["Random Scan", "Raster Scan", "Vector Display", "Calligraphic Display"],
+  "answer": "B",
+  "expl": "Raster scan refreshes the screen line by line, redrawing all pixels."
+},
+{
+  "id": "q22_disp",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "In computer graphics, a pixel represents:",
+  "options": ["A picture element", "A memory unit", "A processor", "A frame"],
+  "answer": "A",
+  "expl": "Pixel stands for picture element, the smallest unit of a digital image."
+},
+{
+  "id": "q23_line",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which line drawing algorithm provides high efficiency using only integer calculations?",
+  "options": ["DDA Algorithm", "Bresenham’s Algorithm", "Midpoint Algorithm", "Liang–Barsky Algorithm"],
+  "answer": "B",
+  "expl": "Bresenham’s algorithm is efficient as it avoids floating-point arithmetic."
+},
+{
+  "id": "q24_trans",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Reflection transformation is used to:",
+  "options": ["Resize an object", "Rotate an object", "Flip an object about an axis", "Shear an object"],
+  "answer": "C",
+  "expl": "Reflection flips objects across a specified axis or line."
+},
+{
+  "id": "q25_proj",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which projection method maintains the parallelism of lines in 3D graphics?",
+  "options": ["Perspective Projection", "Oblique Projection", "Parallel Projection", "Isometric Projection"],
+  "answer": "C",
+  "expl": "Parallel projection preserves line parallelism, unlike perspective projection."
+},
+{
+  "id": "q26_clip",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which clipping algorithm uses outcodes and region codes?",
+  "options": ["Sutherland–Hodgman", "Weiler–Atherton", "Cohen–Sutherland", "Liang–Barsky"],
+  "answer": "C",
+  "expl": "The Cohen–Sutherland algorithm assigns outcodes to identify regions for clipping."
+},
+{
+  "id": "q27_hidden",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which hidden surface removal method compares depth values for each pixel?",
+  "options": ["Scan-line method", "Painter’s algorithm", "Z-buffer method", "Back-face culling"],
+  "answer": "C",
+  "expl": "The Z-buffer method stores depth values to determine visible surfaces."
+},
+{
+  "id": "q28_curve",
+  "category": "computer",
+  "title": "COMPUTER GRAPHIC",
+  "type": "mcq",
+  "text": "Which curve is defined using control points and Bernstein polynomials?",
+  "options": ["Spline Curve", "Bezier Curve", "Hermite Curve", "B-spline Curve"],
+  "answer": "B",
+  "expl": "Bezier curves are widely used and are defined by control points with Bernstein polynomials."
+},
+{
+    "id": "q1",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following statements define Computer Graphics?",
+    "options": ["It refers to designing plans", "It means designing computers", "It refers to designing images", "None of the mentioned"],
+    "answer": "C",
+    "expl": "Computer Graphics refers to designing or generating images using computers."
+  },
+  {
+    "id": "q2",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Among the given scientists/inventors who is known as the father of Computer Graphics?",
+    "options": ["Nikola Tesla", "Ivan Sutherland", "Ada Lovelace", "Marie Curie"],
+    "answer": "B",
+    "expl": "Ivan Sutherland is considered the father of Computer Graphics. He invented the interactive graphics system called Sketchpad in 1963."
+  },
+  {
+    "id": "q3",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following are the features of Computer Graphics?",
+    "options": ["Creation and deletion of images by computer only", "Deletion and manipulation of graphical images by computer", "Creation and manipulation of graphics by computer", "Creation of artificial images by computer only"],
+    "answer": "C",
+    "expl": "Creation and manipulation of graphics (artificial images) by computer are the features of Computer Graphics."
+  },
+  {
+    "id": "q4",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following is a Computer Graphics type?",
+    "options": ["Raster and Vector", "Raster and Scalar", "Scalar only", "All of the above"],
+    "answer": "A",
+    "expl": "Vector graphics are computer-rendered visual art using formulas, while Raster images are made of pixels."
+  },
+  {
+    "id": "q5",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following plane is used for 2D transformations?",
+    "options": ["Three-dimensional plane", "Two-dimensional plane", "One-dimensional plane", "Four-dimensional Plane"],
+    "answer": "B",
+    "expl": "A two-dimensional plane is used for 2D transformations, which modify an object’s position, size, orientation, or shape."
+  },
+  {
+    "id": "q6",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following is a Computer Graphics Curve?",
+    "options": ["Bezier Curves", "Implicit Curves", "Explicit Curves", "All of the above"],
+    "answer": "D",
+    "expl": "Explicit, implicit, Bezier, and parametric curves are all types of curves used in computer graphics."
+  },
+  {
+    "id": "q7",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Who is the first user of computer graphics?",
+    "options": ["William Fetter", "Ivan Edward Sutherland", "Ada Lovelace", "Nicholas Williams"],
+    "answer": "A",
+    "expl": "In 1960s William Fetter used computer graphics to create cockpit drawings, along with Verne Hudson."
+  },
+  {
+    "id": "q8",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following is the purpose for using clipping in computer graphics?",
+    "options": ["Copying", "Zooming", "Adding graphics", "Removing objects and lines"],
+    "answer": "D",
+    "expl": "Clipping removes objects, lines, and line segments outside the viewing pane."
+  },
+  {
+    "id": "q9",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "In a graphical system, an array of pixels in the picture are stored in which location?",
+    "options": ["Frame buffer", "Processor", "Memory", "All of the mentioned"],
+    "answer": "A",
+    "expl": "The frame buffer stores pixel data for display in a graphics system."
+  },
+  {
+    "id": "q10",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Curves in computer graphics are primarily used for which function?",
+    "options": ["To draw different types of objects onto the screen", "Zooming out a picture", "Copying a picture", "Zooming in a picture"],
+    "answer": "A",
+    "expl": "Curves are used to draw various types of objects on the screen."
+  },
+  {
+    "id": "q11",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "__________ types of translation are present in computer graphics.",
+    "options": ["5", "3", "4", "6"],
+    "answer": "B",
+    "expl": "There are three types of translation: point translation, line translation, and polygon translation."
+  },
+  {
+    "id": "q12",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Bitmap is a collection of ____________ that describes an image.",
+    "options": ["Pixels", "Algorithms", "Bits", "Colors"],
+    "answer": "A",
+    "expl": "A bitmap is a set of pixels representing an image."
+  },
+  {
+    "id": "q13",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following devices provides positional information to the graphics system?",
+    "options": ["Pointing devices", "Both Input devices and Pointing devices", "Output devices", "Input devices"],
+    "answer": "B",
+    "expl": "Input devices, often called pointing devices, provide positional information."
+  },
+  {
+    "id": "q14",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following is defined as the number of pixels stored in the frame buffer of a graphics system?",
+    "options": ["Resalution", "Resolution", "Depth", "None of the mentioned"],
+    "answer": "B",
+    "expl": "Resolution is the number of pixels stored in a frame buffer."
+  },
+  {
+    "id": "q15",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following is a primary output device of a graphics system?",
+    "options": ["Printer", "Scanner", "Video monitor", "Neither Scanner nor Video monitor"],
+    "answer": "C",
+    "expl": "The video monitor is commonly used to display images on the screen."
+  },{
+    "id": "q16",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following is used in graphics workstations as input devices to accept voice commands?",
+    "options": ["Speech recognizers", "Touch panels", "None of the mentioned", "All of the mentioned"],
+    "answer": "A",
+    "expl": "Speech recognizers allow users to issue voice commands."
+  },
+  {
+    "id": "q17",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "What is the use of voice system input?",
+    "options": ["To enter data", "To initiate graphics operation and also to enter data", "To initiate graphics operation", "None of the mentioned"],
+    "answer": "B",
+    "expl": "Voice input is used to start graphics operations or enter data."
+  },
+  {
+    "id": "q18",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following is defined as the process of elimination of parts of a scene outside a window or a viewport?",
+    "options": ["Editing", "Cutting", "Plucking", "Clipping"],
+    "answer": "D",
+    "expl": "Clipping removes parts of a scene outside a defined viewport or window."
+  },
+  {
+    "id": "q19",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following is known as the window opened on the raster graphics screen in which the image will be displayed?",
+    "options": ["Interface window", "World window", "World co-ordinate system", "Screen co-ordinate system"],
+    "answer": "A",
+    "expl": "Interface window is a GUI where the user interacts with the displayed image."
+  },
+  {
+    "id": "q20",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following operations can be used to zoom in or out around any axis on a three-dimensional object from its original position?",
+    "options": ["Rotation", "Shearing", "Scaling", "Translation"],
+    "answer": "C",
+    "expl": "Scaling changes the size of objects in computer graphics."
+  },
+  {
+    "id": "q21",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Among the following processes, which process is known as the elimination of parts of a scene outside a window or viewport?",
+    "options": ["Editing", "Plucking", "Cutting", "Clipping"],
+    "answer": "D",
+    "expl": "Clipping selectively disables rendering outside a defined region."
+  },
+  {
+    "id": "q22",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Viewing transformation is the process of mapping a world window in World Coordinates to the Viewport.",
+    "options": ["False", "True"],
+    "answer": "B",
+    "expl": "Viewing transformation maps world coordinates to display coordinates."
+  },
+  {
+    "id": "q23",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following is defined as drawing a number of copies of the same image in rows and columns across the interface window?",
+    "options": ["Zooming", "Panning", "Tiling", "Roaming"],
+    "answer": "C",
+    "expl": "Tiling draws multiple copies of the same image to cover the window."
+  },
+  {
+    "id": "q24",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "How many axes do 3D graphics consist of?",
+    "options": ["Two axes", "Three axes", "Five axes", "One axis"],
+    "answer": "B",
+    "expl": "3D graphics consist of X, Y, and Z axes representing length, breadth, and height."
+  },
+  {
+    "id": "q25",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following is the most commonly used boundary representation for a 3-dimensional graphics object?",
+    "options": ["Volume polygon", "System polygon", "Data polygon", "Surface polygon"],
+    "answer": "D",
+    "expl": "Surface polygon is the common boundary representation for 3D objects."
+  },
+  {
+    "id": "q26",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following is the process of digitizing a picture into a set of pixel-intensity for storage in the frame buffer?",
+    "options": ["Scan conversion", "True color system", "Encoding", "Rasterization"],
+    "answer": "A",
+    "expl": "Scan conversion digitizes a picture into pixel intensities for frame buffer storage."
+  },
+  {
+    "id": "q27",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following is commonly known as frame buffer on a black and white system with one bit per pixel?",
+    "options": ["Bitmap", "Pix map", "Multi map", "All of the mentioned"],
+    "answer": "A",
+    "expl": "Bitmap stores pixel data as 1 bit per pixel in black-and-white systems."
+  },
+  {
+    "id": "q28",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following algorithm is a faster method for calculating pixel positions?",
+    "options": ["Parallel line algorithm", "Mid-point algorithm", "DDA line algorithm", "Bresenham’s line algorithm"],
+    "answer": "C",
+    "expl": "DDA algorithm is a fast method for calculating pixel positions."
+  },
+  {
+    "id": "q29",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "If the boundary is specified in a single color and the algorithm proceeds pixel by pixel until the boundary color is encountered, it is known as ____",
+    "options": ["Parallel curve algorithm", "Flood-fill algorithm", "Scan-line fill algorithm", "Boundary-fill algorithm"],
+    "answer": "D",
+    "expl": "Boundary-fill algorithm proceeds outward pixel by pixel until it meets the boundary color."
+  },
+  {
+    "id": "q30",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following defines a pixel mask?",
+    "options": ["A string containing 1 and 0", "A string containing 0 and 0", "A string containing only 0’s", "A string containing only 1’s"],
+    "answer": "A",
+    "expl": "Pixel masks contain digits 1 and 0 to specify inter-span spacing."
+  },
+  {
+    "id": "q31",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "What does an aspect ratio mean?",
+    "options": [
+      "Ratio of vertical points to horizontal points",
+      "Ratio of vertical points to horizontal points and horizontal points to vertical points",
+      "Number of pixels",
+      "Ratio of horizontal points to vertical points"
+    ],
+    "answer": "B",
+    "expl": "Aspect ratio is the ratio of vertical points to horizontal points and vice versa."
+  },
+  {
+    "id": "q32",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following is a correct abbreviation of DDA algorithm?",
+    "options": [
+      "Data differential analyzer",
+      "Direct differential analyzer",
+      "Digital difference analyzer",
+      "Digital differential analyzer"
+    ],
+    "answer": "D",
+    "expl": "DDA stands for Digital Differential Analyzer."
+  },
+  {
+    "id": "q33",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "The Cohen-Sutherland algorithm divides the region into how many spaces?",
+    "options": ["9", "8", "7", "6"],
+    "answer": "A",
+    "expl": "It divides a 2D space into 9 regions for line clipping."
+  },
+  {
+    "id": "q34",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "The Cohen-Sutherland algorithm is more efficient than the Liang-Barsky algorithm.",
+    "options": ["False", "True"],
+    "answer": "A",
+    "expl": "Liang–Barsky algorithm is more efficient as it performs fewer calculations."
+  },
+  {
+    "id": "q35",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following is used for 3D positioning, modeling, and animation?",
+    "options": ["Spac ball", "Trackball", "Space ball", "All of the mentioned"],
+    "answer": "C",
+    "expl": "Space ball is a 3D positioning device used for modeling and animation."
+  },
+  {
+    "id": "q36",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following can be used to determine the position on the data tablet?",
+    "options": ["Either Signal strength or coded pulse", "Coded pulse", "Signal strength", "Strip microphones"],
+    "answer": "A",
+    "expl": "Either signal strength or coded pulse determines position on a data tablet."
+  },
+  {
+    "id": "q37",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which type of perspective projection is also called 'Angular Perspective'?",
+    "options": ["Four-Point", "Three-Point", "One-point", "Two-point"],
+    "answer": "D",
+    "expl": "Two-point perspective is also called angular perspective."
+  },
+  {
+    "id": "q38",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which perspective projection is used in drawings of railway lines?",
+    "options": ["Three-point", "Two-point", "One-point", "Not used"],
+    "answer": "C",
+    "expl": "One-point perspective is commonly used for railway and highway drawings."
+  },
+  {
+    "id": "q39",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which representation represents a three-dimensional object?",
+    "options": ["Function", "Point", "Polygon", "Equation"],
+    "answer": "D",
+    "expl": "Equation representation can describe a 3D object mathematically."
+  },
+  {
+    "id": "q40",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which part of a picture is considered and saved in exterior clipping?",
+    "options": [
+      "We don’t consider the picture in exterior clipping",
+      "Picture outside the view window",
+      "Picture inside the view window",
+      "Picture on the edges of the view window"
+    ],
+    "answer": "B",
+    "expl": "Exterior clipping keeps only the part outside the view window."
+  },
+  {
+    "id": "q41",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which clipping process handles the clipping of strings?",
+    "options": ["Text Clipping", "Exterior Clipping", "Curve Clipping", "Shape Clipping"],
+    "answer": "A",
+    "expl": "Text clipping determines which parts of strings are kept based on position."
+  },
+  {
+    "id": "q42",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which algorithm can be used to clip a polygon in 3D space?",
+    "options": [
+      "Vatti Clipping Algorithm",
+      "Polygon in 3D space cannot be clipped",
+      "Weiler Atherton Algorithm",
+      "Greiner Hormann Clipping Algorithm"
+    ],
+    "answer": "C",
+    "expl": "Weiler Atherton can clip polygons in 3D using Z-ordering."
+  },
+  {
+    "id": "q43",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "How is the line path on the polygon area for a 45% line?",
+    "options": ["Vertical", "Horizontal", "Centered", "None of the mentioned"],
+    "answer": "C",
+    "expl": "A 45% line path is centered on the polygon area."
+  },
+  {
+    "id": "q44",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which is defined as sampling object characteristics at high resolution and displaying at lower resolution?",
+    "options": ["Anti-aliasing", "Super-sampling or Post-filtering", "Post-filtering", "Super-sampling"],
+    "answer": "B",
+    "expl": "Super-sampling, or post-filtering, averages high-resolution samples to reduce aliasing."
+  },
+  {
+    "id": "q45",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "What is the correct full form of NLN line clipping algorithm?",
+    "options": [
+      "Nicholai-Lee-Nicholl algorithm",
+      "Nicholl-Liang-Nicholl algorithm",
+      "Nicholl-Lee-Nicholl algorithm",
+      "Nicholai-Liang-Nicholl algorithm"
+    ],
+    "answer": "C",
+    "expl": "NLN stands for Nicholl-Lee-Nicholl algorithm, a fast clipping method."
+  },
+  {
+    "id": "q46",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "‘Skala’ is an example of which type of clipping?",
+    "options": ["Polygon clipping", "Line clipping", "Curve clipping", "Point clipping"],
+    "answer": "B",
+    "expl": "Skala is a line clipping algorithm for rectangular and convex polygon windows."
+  },
+  {
+    "id": "q47",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which of the following is not a type of area sampling?",
+    "options": ["Point sampling", "Weighted area sampling", "Anti-aliasing", "Unweighted area sampling"],
+    "answer": "A",
+    "expl": "Point sampling is not considered area sampling; others are weighted/unweighted area methods."
+  },
+  {
+    "id": "q48",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "In which method is a fixed pattern of a line used to generate characters?",
+    "options": ["Dot-matrix method", "Bitmap method", "Stroke method", "Starbust method"],
+    "answer": "D",
+    "expl": "Starbust method uses fixed 24-line segments to generate characters."
+  },
+  {
+    "id": "q49",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which stores picture information as a charge distribution behind a phosphor-coated screen?",
+    "options": ["Direct-view storage tube", "Flat panel displays", "3D viewing device", "Cathode ray tube"],
+    "answer": "A",
+    "expl": "DVST stores images behind the screen rather than updating them."
+  },
+  {
+    "id": "q50",
+    "category": "computer",
+    "title": "COMPUTER GRAPHIC 1.0",
+    "type": "mcq",
+    "text": "Which device is designed to minimize background sound?",
+    "options": ["Joystick", "Data glove", "Microphone", "Digitizers"],
+    "answer": "C",
+    "expl": "Microphones can be designed to minimize background noise."
+  }
+
+]

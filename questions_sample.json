@@ -1,0 +1,161 @@
+[
+  {
+    "id": "q1",
+    "title": "General Science",
+    "category": "Science",
+    "type": "mcq",
+    "text": "What is the chemical symbol for water?",
+    "options": [
+      "H2O",
+      "O2",
+      "CO2",
+      "H2"
+    ],
+    "answer": "A",
+    "expl": "Water is H2O."
+  },
+  {
+    "id": "q2",
+    "title": "General Science",
+    "category": "Science",
+    "type": "mcq",
+    "text": "What planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Mars",
+      "Jupiter",
+      "Venus"
+    ],
+    "answer": "B",
+    "expl": "Mars appears red due to iron oxide."
+  },
+  {
+    "id": "q3",
+    "title": "World History",
+    "category": "History",
+    "type": "mcq",
+    "text": "Who was the first President of the United States?",
+    "options": [
+      "Abraham Lincoln",
+      "George Washington",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q4",
+    "title": "World History",
+    "category": "History",
+    "type": "mcq",
+    "text": "The Great Wall of China was built to protect against which group?",
+    "options": [
+      "Mongols",
+      "Romans",
+      "Persians",
+      "Vikings"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q5",
+    "title": "World Geography",
+    "category": "Geography",
+    "type": "mcq",
+    "text": "What is the capital of France?",
+    "options": [
+      "Berlin",
+      "Madrid",
+      "Paris",
+      "Rome"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "q6",
+    "title": "World Geography",
+    "category": "Geography",
+    "type": "mcq",
+    "text": "Which river is the longest in the world?",
+    "options": [
+      "Amazon",
+      "Nile",
+      "Yangtze",
+      "Mississippi"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q7",
+    "title": "Movies & Books",
+    "category": "Entertainment",
+    "type": "mcq",
+    "text": "Who directed the movie \"Inception\"?",
+    "options": [
+      "Steven Spielberg",
+      "Christopher Nolan",
+      "Martin Scorsese",
+      "Quentin Tarantino"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q8",
+    "title": "Movies & Books",
+    "category": "Entertainment",
+    "type": "mcq",
+    "text": "What is the name of the wizarding school in the Harry Potter series?",
+    "options": [
+      "Hogwarts",
+      "Narnia",
+      "Middle-earth",
+      "Westeros"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "q9",
+    "title": "Sports Basics",
+    "category": "Sports",
+    "type": "mcq",
+    "text": "In which sport would you perform a slam dunk?",
+    "options": [
+      "Soccer",
+      "Basketball",
+      "Tennis",
+      "Baseball"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q10",
+    "title": "Sports Basics",
+    "category": "Sports",
+    "type": "mcq",
+    "text": "Which country hosted the 2016 Summer Olympics?",
+    "options": [
+      "China",
+      "Brazil",
+      "UK",
+      "USA"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "q11",
+    "title": "General Science",
+    "category": "Science",
+    "type": "tf",
+    "text": "The sun is a star.",
+    "answer": "True",
+    "expl": "Yes, the Sun is a G-type main-sequence star."
+  },
+  {
+    "id": "q12",
+    "title": "World Geography",
+    "category": "Geography",
+    "type": "fib",
+    "text": "Mount ____ is the highest mountain above sea level.",
+    "answer": "Everest"
+  }
+]

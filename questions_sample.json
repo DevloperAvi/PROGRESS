@@ -1,161 +1,302 @@
 [
   {
     "id": "q1",
-    "title": "General Science",
-    "category": "Science",
+    "title": "English Vocabulary",
+    "category": "English",
     "type": "mcq",
-    "text": "What is the chemical symbol for water?",
+    "text": "Choose the synonym of the word: Abundant",
     "options": [
-      "H2O",
-      "O2",
-      "CO2",
-      "H2"
+      "Scarce",
+      "Plentiful",
+      "Rare",
+      "Limited"
     ],
-    "answer": "A",
-    "expl": "Water is H2O."
+    "answer": "B",
+    "expl": "Abundant means existing in large quantity; plentiful."
   },
   {
     "id": "q2",
-    "title": "General Science",
-    "category": "Science",
+    "title": "English Vocabulary",
+    "category": "English",
     "type": "mcq",
-    "text": "What planet is known as the Red Planet?",
+    "text": "Choose the antonym of the word: Fragile",
     "options": [
-      "Earth",
-      "Mars",
-      "Jupiter",
-      "Venus"
+      "Delicate",
+      "Weak",
+      "Strong",
+      "Breakable"
     ],
-    "answer": "B",
-    "expl": "Mars appears red due to iron oxide."
+    "answer": "C",
+    "expl": "Fragile means easily broken; its antonym is strong."
   },
   {
     "id": "q3",
-    "title": "World History",
-    "category": "History",
+    "title": "English Vocabulary",
+    "category": "English",
     "type": "mcq",
-    "text": "Who was the first President of the United States?",
+    "text": "Choose the synonym of the word: Eloquent",
     "options": [
-      "Abraham Lincoln",
-      "George Washington",
-      "Thomas Jefferson",
-      "John Adams"
+      "Silent",
+      "Fluent",
+      "Rough",
+      "Shy"
     ],
-    "answer": "B"
+    "answer": "B",
+    "expl": "Eloquent means fluent or persuasive in speaking."
   },
   {
     "id": "q4",
-    "title": "World History",
-    "category": "History",
+    "title": "English Vocabulary",
+    "category": "English",
     "type": "mcq",
-    "text": "The Great Wall of China was built to protect against which group?",
+    "text": "Choose the antonym of the word: Hostile",
     "options": [
-      "Mongols",
-      "Romans",
-      "Persians",
-      "Vikings"
+      "Friendly",
+      "Angry",
+      "Rude",
+      "Cruel"
     ],
-    "answer": "A"
+    "answer": "A",
+    "expl": "Hostile means unfriendly; the opposite is friendly."
   },
   {
     "id": "q5",
-    "title": "World Geography",
-    "category": "Geography",
+    "title": "English Vocabulary",
+    "category": "English",
     "type": "mcq",
-    "text": "What is the capital of France?",
+    "text": "Choose the synonym of the word: Prudent",
     "options": [
-      "Berlin",
-      "Madrid",
-      "Paris",
-      "Rome"
+      "Careless",
+      "Wise",
+      "Foolish",
+      "Hasty"
     ],
-    "answer": "C"
+    "answer": "B",
+    "expl": "Prudent means wise or cautious."
   },
   {
     "id": "q6",
-    "title": "World Geography",
-    "category": "Geography",
+    "title": "English Vocabulary",
+    "category": "English",
     "type": "mcq",
-    "text": "Which river is the longest in the world?",
+    "text": "Choose the antonym of the word: Expand",
     "options": [
-      "Amazon",
-      "Nile",
-      "Yangtze",
-      "Mississippi"
+      "Increase",
+      "Enlarge",
+      "Extend",
+      "Contract"
     ],
-    "answer": "B"
+    "answer": "D",
+    "expl": "Expand means to increase; contract is the opposite."
   },
   {
     "id": "q7",
-    "title": "Movies & Books",
-    "category": "Entertainment",
+    "title": "English Vocabulary",
+    "category": "English",
     "type": "mcq",
-    "text": "Who directed the movie \"Inception\"?",
+    "text": "Choose the synonym of the word: Lucid",
     "options": [
-      "Steven Spielberg",
-      "Christopher Nolan",
-      "Martin Scorsese",
-      "Quentin Tarantino"
+      "Clear",
+      "Dark",
+      "Confused",
+      "Vague"
     ],
-    "answer": "B"
+    "answer": "A",
+    "expl": "Lucid means clear or easy to understand."
   },
   {
     "id": "q8",
-    "title": "Movies & Books",
-    "category": "Entertainment",
+    "title": "English Vocabulary",
+    "category": "English",
     "type": "mcq",
-    "text": "What is the name of the wizarding school in the Harry Potter series?",
+    "text": "Choose the antonym of the word: Permanent",
     "options": [
-      "Hogwarts",
-      "Narnia",
-      "Middle-earth",
-      "Westeros"
+      "Fixed",
+      "Lasting",
+      "Temporary",
+      "Stable"
     ],
-    "answer": "A"
+    "answer": "C",
+    "expl": "Permanent means lasting; temporary is the opposite."
   },
   {
     "id": "q9",
-    "title": "Sports Basics",
-    "category": "Sports",
+    "title": "English Vocabulary",
+    "category": "English",
     "type": "mcq",
-    "text": "In which sport would you perform a slam dunk?",
+    "text": "Choose the synonym of the word: Tedious",
     "options": [
-      "Soccer",
-      "Basketball",
-      "Tennis",
-      "Baseball"
+      "Interesting",
+      "Exciting",
+      "Boring",
+      "Enjoyable"
     ],
-    "answer": "B"
+    "answer": "C",
+    "expl": "Tedious means boring or tiresome."
   },
   {
     "id": "q10",
-    "title": "Sports Basics",
-    "category": "Sports",
+    "title": "English Vocabulary",
+    "category": "English",
     "type": "mcq",
-    "text": "Which country hosted the 2016 Summer Olympics?",
+    "text": "Choose the antonym of the word: Victory",
     "options": [
-      "China",
-      "Brazil",
-      "UK",
-      "USA"
+      "Success",
+      "Win",
+      "Defeat",
+      "Triumph"
     ],
-    "answer": "B"
+    "answer": "C",
+    "expl": "Victory means success; defeat is its opposite."
   },
   {
     "id": "q11",
-    "title": "General Science",
-    "category": "Science",
-    "type": "tf",
-    "text": "The sun is a star.",
-    "answer": "True",
-    "expl": "Yes, the Sun is a G-type main-sequence star."
+    "title": "English Vocabulary",
+    "category": "English",
+    "type": "mcq",
+    "text": "Choose the synonym of the word: Resilient",
+    "options": [
+      "Weak",
+      "Flexible",
+      "Rigid",
+      "Lazy"
+    ],
+    "answer": "B",
+    "expl": "Resilient means able to recover quickly; flexible."
   },
   {
     "id": "q12",
-    "title": "World Geography",
-    "category": "Geography",
-    "type": "fib",
-    "text": "Mount ____ is the highest mountain above sea level.",
-    "answer": "Everest"
+    "title": "English Vocabulary",
+    "category": "English",
+    "type": "mcq",
+    "text": "Choose the antonym of the word: Generous",
+    "options": [
+      "Kind",
+      "Helpful",
+      "Stingy",
+      "Charitable"
+    ],
+    "answer": "C",
+    "expl": "Generous means giving; stingy is the opposite."
+  },
+  {
+    "id": "q13",
+    "title": "English Vocabulary",
+    "category": "English",
+    "type": "mcq",
+    "text": "Choose the synonym of the word: Rapid",
+    "options": [
+      "Slow",
+      "Quick",
+      "Lazy",
+      "Late"
+    ],
+    "answer": "B",
+    "expl": "Rapid means fast or quick."
+  },
+  {
+    "id": "q14",
+    "title": "English Vocabulary",
+    "category": "English",
+    "type": "mcq",
+    "text": "Choose the antonym of the word: Honest",
+    "options": [
+      "Truthful",
+      "Sincere",
+      "Dishonest",
+      "Faithful"
+    ],
+    "answer": "C",
+    "expl": "Honest means truthful; dishonest is the opposite."
+  },
+  {
+    "id": "q15",
+    "title": "English Vocabulary",
+    "category": "English",
+    "type": "mcq",
+    "text": "Choose the synonym of the word: Scarce",
+    "options": [
+      "Plenty",
+      "Rare",
+      "Abundant",
+      "Enough"
+    ],
+    "answer": "B",
+    "expl": "Scarce means rare or insufficient."
+  },
+  {
+    "id": "q16",
+    "title": "English Vocabulary",
+    "category": "English",
+    "type": "mcq",
+    "text": "Choose the antonym of the word: Ancient",
+    "options": [
+      "Old",
+      "Modern",
+      "Historic",
+      "Traditional"
+    ],
+    "answer": "B",
+    "expl": "Ancient means very old; modern is the opposite."
+  },
+  {
+    "id": "q17",
+    "title": "English Vocabulary",
+    "category": "English",
+    "type": "mcq",
+    "text": "Choose the synonym of the word: Diligent",
+    "options": [
+      "Lazy",
+      "Hardworking",
+      "Careless",
+      "Slow"
+    ],
+    "answer": "B",
+    "expl": "Diligent means hardworking."
+  },
+  {
+    "id": "q18",
+    "title": "English Vocabulary",
+    "category": "English",
+    "type": "mcq",
+    "text": "Choose the antonym of the word: Accept",
+    "options": [
+      "Agree",
+      "Receive",
+      "Reject",
+      "Allow"
+    ],
+    "answer": "C",
+    "expl": "Accept means to receive; reject is the opposite."
+  },
+  {
+    "id": "q19",
+    "title": "English Vocabulary",
+    "category": "English",
+    "type": "mcq",
+    "text": "Choose the synonym of the word: Cautious",
+    "options": [
+      "Careful",
+      "Risky",
+      "Hasty",
+      "Bold"
+    ],
+    "answer": "A",
+    "expl": "Cautious means careful."
+  },
+  {
+    "id": "q20",
+    "title": "English Vocabulary",
+    "category": "English",
+    "type": "mcq",
+    "text": "Choose the antonym of the word: Victory",
+    "options": [
+      "Triumph",
+      "Success",
+      "Defeat",
+      "Win"
+    ],
+    "answer": "C",
+    "expl": "Victory means win; defeat is its antonym."
   }
 ]
